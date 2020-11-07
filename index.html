@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Police de caractère -->
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <!-- Feuille de style -->
+    <link rel="styles/css" href="./styles/css/styles.css"> 
+
+    <title>Barber</title>
+</head>
+<body>
+
+    <!-- Accueil -->
+
+    <nav class="nav">
+        <div class="nav__list">
+            <a href="#accueil" class="nav__liens">Accueil</a>
+            <a href="#valeurs" class="nav__liens">Nos Valeurs</a>
+            <a href="#tarifs" class="nav__liens">Nos Tarifs</a>
+            <a href="#contact" class="nav__liens">Contact</a>
+            <a class="nav__icon" id="icon"><i class="fas fa-bars"></i></a>
+        </div>
+    </nav>
+
+    <header id="accueil" class="header">
+        <h1>Votre Barbier Traditionnel.</h1>
+        <h2>Rasoir, Peigne et Savoir-faire.</h2>
+        <a href="#section-about" id="header__arrow"><i class="fas fa-cut"></i></a>
+    </header>
+
+    <!-- Section A Propos -->
+    <section id="section-about" class="section-about">
+
+        <div class="centerH">
+            <h2 class="centerH__titreAPropos">
+                Découvrez nos Valeurs.
+            </h2>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-2">
+                <h3 class="row__sousTitreAPropos">Coupez vos cheveux comme il y a 100 ans.</h3>
+                <p class="row__paragraphe">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur veritatis voluptatem commodi quas deleniti fugiat. Quidem voluptates eius minus mollitia blanditiis iusto veniam autem ipsam adipisci ex obcaecati, aperiam fuga?</p>
+                <h3 class="row__sousTitreAPropos">L'art de tailler une barbe.</h3>
+                <p class="row__paragraphe">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur veritatis voluptatem commodi quas deleniti fugiat. Quidem voluptates eius minus mollitia blanditiis iusto veniam autem ipsam adipisci ex obcaecati, aperiam fuga?</p>
+            </div>
+            <div class="col-1-of-2">
+                <div class="composition">
+                    <img src="./img/3imgs1.jpg" alt="photo barbier 1" class="composition_photo composition_photo--1">
+                    <img src="./img/3imgs2.jpeg" alt="photo barbier 2" class="composition_photo composition_photo--2">
+                    <img src="./img/3imgs3.jpg" alt="photo barbier 3" class="composition_photo composition_photo--3">
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Tarif -->
+
+    <section id="tarifs">
+        <h2>Nos Tarifs</h2>
+
+        <div class="containerFlex">
+
+            <div class="flexCards">
+                <div class="flexCards__head">
+                    <P>Dégradé</P>
+                </div>
+                <div class="contenu">Huile</div>
+                <div class="contenu">Crème</div>
+                <div class="contenu">Shampoing</div>
+                <div class="contenu">Dégradé</div>
+                <p>10€</p>
+            </div>
+
+            <div class="flexCards">
+                <div class="flexCards__head">
+                    <P>Barbe</P>
+                </div>
+                <div class="contenu">Huile</div>
+                <div class="contenu">Crème</div>
+                <div class="contenu">Shampoing</div>
+                <div class="contenu">Taille</div>
+                <p>25€</p>
+            </div>
+
+            <div class="flexCards">
+                <div class="flexCards__head">
+                    <P>La Totale</P>
+                </div>
+                <div class="contenu">Crème</div>
+                <div class="contenu">Shampoing</div>
+                <div class="contenu">Dégradé</div>
+                <div class="contenu">Taille</div>
+                <p>35€</p>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

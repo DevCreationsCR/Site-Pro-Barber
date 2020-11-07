@@ -1,4 +1,4 @@
-# Projet – [Ecole du Web]('https://www.ecole-du-web.net/')
+# Projet – [Ecole du Web](https://www.ecole-du-web.net/)
 
 ## Créer un Site professionnel et responsive 
 
@@ -9,4 +9,4 @@
 
 ### Le Site :
 
-* Le site [ICI] ('https://devcreationscr.github.io/Site-Pro/')
+* Le site [ICI] (https://devcreationscr.github.io/Site-Pro/)

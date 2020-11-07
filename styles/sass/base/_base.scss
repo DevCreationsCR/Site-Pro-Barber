@@ -1,0 +1,15 @@
+html{
+    font-size: 62.5%;
+  /* 1rem = 10px */
+}
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: $color-or;
+}

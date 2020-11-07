@@ -1,0 +1,15 @@
+{
+  "name": "site-pro-barber",
+  "version": "1.0.0",
+  "description": "Site Professionnel pour Barbier",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./styles/sass/main.scss ./styles/css/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.29.0"
+  }
+}

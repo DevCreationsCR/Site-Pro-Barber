@@ -1,0 +1,60 @@
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background: url("../../../img/imgBackground.jpg");
+    background-size: cover;
+    background-position: center;
+
+    &__h1{
+        margin: 0;
+        position: relative;
+        top: 30rem;
+        text-align: center;
+        color: $color-or;
+        font-family: $font-principal;
+        font-size: 11rem;
+        /* Anim GS */
+        opacity: 0;
+    }
+
+    &__h2{
+        margin: 0;
+        position: relative;
+        top: 32rem;
+        text-align: center;
+        color: $color-or;
+        font-family: $font-secondaire;
+        font-size: 5rem;
+        letter-spacing: 0.2rem;
+        /* Anim GS */
+        opacity: 0;
+    }
+
+    &__arrow{
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+        height: 8rem;
+        width: 8rem;
+        font-size: 4rem;
+        line-height: 8rem;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background: $color-blanche;
+        box-shadow: 0 0 0 0 $color-blanche;
+        animation: pulse 1.3s infinite;
+        /* Anim GS */
+        opacity: 0;
+    }
+    @keyframes pulse{
+        to{
+            box-shadow: 0 0 0 1rem rgba(255, 255, 255, 0.01);
+        }
+        }
+        
+}
+
